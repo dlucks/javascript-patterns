@@ -1,5 +1,5 @@
 /**
- * The 'Basic Module' pattern.
+ * The `Basic Module` pattern.
  */
 var basicModule = (function () {
 

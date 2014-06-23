@@ -21,7 +21,7 @@ var superModule = (function () {
      * Declare an abstract function that should be implemented in a sub module.
      */
     var someAbstractFunction = function () {
-        throw new Error('Method superModule::someAbstractFunction should be implemented in sub module.');
+        throw new Error('Method `superModule::someAbstractFunction()` should be implemented in sub module.');
     };
 
     /**
@@ -65,7 +65,7 @@ var subModule = (function (superModule) {
      * Extend super module by another public function.
      */
     superModule.anotherPublicFunction = function () {
-
+        //...
     };
 
     /**
