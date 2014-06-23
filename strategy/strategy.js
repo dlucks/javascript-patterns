@@ -1,4 +1,6 @@
 /**
+ * The `Strategy` pattern.
+ *
  * This variable holds the strategy interface.
  */
 var StrategyInterface = function () {};
